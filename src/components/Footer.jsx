@@ -14,7 +14,7 @@ import logo from "../assets/logo.png";
 
 import "./Footer.css";
 
-function Footer() {
+function Footer({ onLegalClick }) {
   const { language } = useLanguage();
   const t = translations[language];
 
@@ -258,15 +258,21 @@ function Footer() {
           {/* Legal Links */}
           <div className="footer-legal">
 
-            <a href="#privacy">
+            <button
+              type="button"
+              onClick={() => onLegalClick("privacy")}
+            >
               {t.footerPrivacy}
-            </a>
+            </button>
 
             <span></span>
 
-            <a href="#terms">
+            <button
+              type="button"
+              onClick={() => onLegalClick("terms")}
+            >
               {t.footerTerms}
-            </a>
+            </button>
 
           </div>
 

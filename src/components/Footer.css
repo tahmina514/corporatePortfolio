@@ -380,17 +380,23 @@ a.footer-contact-item:hover {
   gap: 14px;
 }
 
-.footer-legal a {
+.footer-legal button {
+  border: none;
+  padding: 0;
+
+  background: transparent;
+
   color: #8f9bad;
 
-  text-decoration: none;
-
+  font-family: inherit;
   font-size: 13px;
+
+  cursor: pointer;
 
   transition: color 0.25s ease;
 }
 
-.footer-legal a:hover {
+.footer-legal button:hover {
   color: #ffffff;
 }
 

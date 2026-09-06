@@ -12,7 +12,6 @@ body {
   width: 100%;
 }
 
-
 /* =================================================
    HERO SECTION
 ================================================= */
@@ -53,7 +52,6 @@ body {
   color: white;
 }
 
-
 /* =================================================
    TRUSTED BOX
 ================================================= */
@@ -81,7 +79,6 @@ body {
   flex-shrink: 0;
 }
 
-
 /* =================================================
    HERO TEXT
 ================================================= */
@@ -98,7 +95,6 @@ body {
   line-height: 1.6;
   margin-bottom: 30px;
 }
-
 
 /* =================================================
    VIEW SERVICES BUTTON
@@ -130,7 +126,6 @@ body {
   color: #222425;
   transform: translateY(-2px);
 }
-
 
 /* =================================================
    HERO STATISTICS
@@ -173,7 +168,6 @@ body {
   border-color: rgba(255, 255, 255, 0.7);
 }
 
-
 /* =================================================
    ABOUT SECTION
 ================================================= */
@@ -183,7 +177,6 @@ body {
   padding: 90px 50px;
   background: #ffffff;
 }
-
 
 /* =================================================
    ABOUT HEADER
@@ -227,7 +220,6 @@ body {
   color: #667085;
 }
 
-
 /* =================================================
    ABOUT CARDS
 ================================================= */
@@ -255,7 +247,6 @@ body {
     box-shadow 0.35s ease;
 }
 
-
 /* About Card Title */
 
 .about-card-title {
@@ -281,7 +272,6 @@ body {
   color: #1f2937;
 }
 
-
 /* About Card Paragraph */
 
 .about-card p {
@@ -290,7 +280,6 @@ body {
   color: #667085;
   text-align: left;
 }
-
 
 /* About Hover */
 
@@ -304,7 +293,6 @@ body {
 .about-card:hover .about-card-title svg {
   transform: scale(1.15);
 }
-
 
 /* About Bottom Line */
 
@@ -323,7 +311,6 @@ body {
   width: 70px;
 }
 
-
 /* About Card 1 - RED */
 
 .about-card:nth-child(1):hover {
@@ -339,7 +326,6 @@ body {
 .about-card:nth-child(1)::after {
   background: #ef4444;
 }
-
 
 /* About Card 2 - ORANGE */
 
@@ -357,7 +343,6 @@ body {
   background: #f97316;
 }
 
-
 /* About Card 3 - BLUE */
 
 .about-card:nth-child(3):hover {
@@ -374,7 +359,6 @@ body {
   background: #2563eb;
 }
 
-
 /* About Card 4 - GREEN */
 
 .about-card:nth-child(4):hover {
@@ -390,7 +374,6 @@ body {
 .about-card:nth-child(4)::after {
   background: #16a34a;
 }
-
 
 /* =================================================
    ABOUT STATISTICS
@@ -450,7 +433,6 @@ body {
   font-size: 15px;
 }
 
-
 /* =================================================
    SERVICES SECTION
 ================================================= */
@@ -460,7 +442,6 @@ body {
   padding: 90px 50px;
   background: #f5f8ff;
 }
-
 
 /* =================================================
    SERVICES HEADER
@@ -504,7 +485,6 @@ body {
   color: #667085;
 }
 
-
 /* =================================================
    SERVICES CARDS
 ================================================= */
@@ -516,7 +496,6 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 22px;
 }
-
 
 /* =================================================
    INDIVIDUAL SERVICE CARD
@@ -536,7 +515,6 @@ body {
     border-color 0.35s ease,
     box-shadow 0.35s ease;
 }
-
 
 /* =================================================
    SERVICE ICON
@@ -563,7 +541,6 @@ body {
   height: 25px;
 }
 
-
 /* =================================================
    SERVICE TITLE
 ================================================= */
@@ -576,7 +553,6 @@ body {
   text-align: center;
 }
 
-
 /* =================================================
    SERVICE DESCRIPTION
 ================================================= */
@@ -588,7 +564,6 @@ body {
   color: #667085;
   text-align: left;
 }
-
 
 /* =================================================
    SERVICE CARD HOVER
@@ -604,7 +579,6 @@ body {
 .service-card:hover .service-icon {
   transform: scale(1.15);
 }
-
 
 /* =================================================
    SERVICE BOTTOM LINE
@@ -625,7 +599,6 @@ body {
   width: 70px;
 }
 
-
 /* =================================================
    SERVICE CARD 1 - RED
 ================================================= */
@@ -644,7 +617,6 @@ body {
 .service-card:nth-child(1)::after {
   background: #ef4444;
 }
-
 
 /* =================================================
    SERVICE CARD 2 - ORANGE
@@ -665,7 +637,6 @@ body {
   background: #f97316;
 }
 
-
 /* =================================================
    SERVICE CARD 3 - BLUE
 ================================================= */
@@ -684,7 +655,6 @@ body {
 .service-card:nth-child(3)::after {
   background: #2563eb;
 }
-
 
 /* =================================================
    SERVICE CARD 4 - GREEN
@@ -705,7 +675,6 @@ body {
   background: #16a34a;
 }
 
-
 /* =================================================
    SERVICE CARD 5 - PURPLE
 ================================================= */
@@ -724,7 +693,6 @@ body {
 .service-card:nth-child(5)::after {
   background: #9333ea;
 }
-
 
 /* =================================================
    LEARN MORE BUTTON
@@ -753,7 +721,6 @@ body {
   transform: translateX(5px);
 }
 
-
 /* =================================================
    SERVICES CTA
 ================================================= */
@@ -769,7 +736,6 @@ body {
   color: #667085;
   margin-bottom: 20px;
 }
-
 
 /* =================================================
    CONTACT TEAM BUTTON
@@ -806,7 +772,6 @@ body {
     0 8px 20px rgba(37, 99, 235, 0.25);
 }
 
-
 /* =================================================
    CONTACT SECTION
 ================================================= */
@@ -816,7 +781,6 @@ body {
   padding: 90px 50px;
   background: #f5f8ff;
 }
-
 
 /* =================================================
    CONTACT HEADER
@@ -860,7 +824,6 @@ body {
   color: #667085;
 }
 
-
 /* =================================================
    CONTACT CARDS
 ================================================= */
@@ -872,7 +835,6 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 22px;
 }
-
 
 /* =================================================
    INDIVIDUAL CONTACT CARD
@@ -896,7 +858,6 @@ body {
     border-color 0.35s ease,
     box-shadow 0.35s ease;
 }
-
 
 /* =================================================
    CONTACT ICON
@@ -923,7 +884,6 @@ body {
   height: 27px;
 }
 
-
 /* =================================================
    CONTACT CARD TITLE
 ================================================= */
@@ -934,7 +894,6 @@ body {
   margin-bottom: 15px;
   color: #1f2937;
 }
-
 
 /* =================================================
    CONTACT CARD DESCRIPTION
@@ -948,7 +907,6 @@ body {
   margin-bottom: 14px;
   color: #667085;
 }
-
 
 /* =================================================
    CONTACT CLICKABLE LINK
@@ -970,7 +928,6 @@ body {
   text-decoration: underline;
 }
 
-
 /* =================================================
    CONTACT EXTRA INFORMATION
 ================================================= */
@@ -980,7 +937,6 @@ body {
   line-height: 1.5;
   color: #667085;
 }
-
 
 /* =================================================
    CONTACT CARD HOVER
@@ -999,7 +955,6 @@ body {
   color: #2563eb;
   background: #dbeafe;
 }
-
 
 /* =================================================
    CONTACT CARD BOTTOM LINE
@@ -1022,7 +977,6 @@ body {
   width: 70px;
 }
 
-
 /* =================================================
    CONTACT CTA
 ================================================= */
@@ -1039,7 +993,6 @@ body {
   color: #667085;
   margin-bottom: 22px;
 }
-
 
 /* =================================================
    CONTACT BUTTONS
@@ -1077,7 +1030,6 @@ body {
   height: 19px;
 }
 
-
 /* Call Now */
 
 .contact-call-btn {
@@ -1095,7 +1047,6 @@ body {
     0 10px 25px rgba(37, 99, 235, 0.25);
 }
 
-
 /* Send Mail */
 
 .contact-mail-btn {
@@ -1111,7 +1062,6 @@ body {
     0 6px 15px rgba(22, 139, 32, 0.12);
 }
 
-
 /* =================================================
    TESTIMONIALS SECTION
 ================================================= */
@@ -1121,7 +1071,6 @@ body {
   padding: 90px 50px;
   background: #ffffff;
 }
-
 
 /* =================================================
    TESTIMONIALS HEADER
@@ -1158,7 +1107,6 @@ body {
   color: #667085;
 }
 
-
 /* =================================================
    TESTIMONIAL CARDS
 ================================================= */
@@ -1170,7 +1118,6 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 22px;
 }
-
 
 /* =================================================
    INDIVIDUAL TESTIMONIAL CARD
@@ -1191,7 +1138,6 @@ body {
     box-shadow 0.35s ease;
 }
 
-
 /* =================================================
    TESTIMONIAL TEXT
 ================================================= */
@@ -1203,7 +1149,6 @@ body {
   color: #667085;
   margin-bottom: 20px;
 }
-
 
 /* =================================================
    TESTIMONIAL RATING
@@ -1224,7 +1169,6 @@ body {
   fill: #f59e0b;
 }
 
-
 /* =================================================
    TESTIMONIAL USER
 ================================================= */
@@ -1236,7 +1180,6 @@ body {
   padding-top: 20px;
   border-top: 1px solid #e2e8f0;
 }
-
 
 /* =================================================
    PROFILE IMAGE
@@ -1256,7 +1199,6 @@ body {
   border-radius: 50%;
 }
 
-
 /* =================================================
    ONLINE STATUS
 ================================================= */
@@ -1271,7 +1213,6 @@ body {
   border: 2px solid #ffffff;
   border-radius: 50%;
 }
-
 
 /* =================================================
    USER INFORMATION
@@ -1296,7 +1237,6 @@ body {
   color: #475569;
 }
 
-
 /* =================================================
    TESTIMONIAL CARD HOVER
 ================================================= */
@@ -1308,7 +1248,6 @@ body {
   box-shadow:
     0 15px 35px rgba(37, 99, 235, 0.15);
 }
-
 
 /* =================================================
    MESSAGE BUBBLE TAIL
@@ -1327,7 +1266,6 @@ body {
   transform: rotate(45deg);
 }
 
-
 /* =================================================
    TESTIMONIAL CTA
 ================================================= */
@@ -1343,7 +1281,6 @@ body {
   margin-bottom: 25px;
   color: #1f2937;
 }
-
 
 /* =================================================
    TESTIMONIAL BUTTONS
@@ -1382,7 +1319,6 @@ body {
   flex-shrink: 0;
 }
 
-
 /* Get Started Today */
 
 .testimonial-btn:first-child {
@@ -1400,7 +1336,6 @@ body {
     0 10px 25px rgba(37, 99, 235, 0.25);
 }
 
-
 /* Talk to Our Team */
 
 .testimonial-btn:last-child {
@@ -1416,7 +1351,6 @@ body {
     0 6px 15px rgba(22, 139, 32, 0.12);
 }
 
-
 /* =================================================
    DARK MODE
 ================================================= */
@@ -1426,7 +1360,6 @@ body {
   background: #111827;
   color: #f9fafb;
 }
-
 
 /* =================================================
    GLOBAL DARK MODE TRANSITIONS
@@ -1457,7 +1390,6 @@ body,
     box-shadow 0.3s ease;
 }
 
-
 /* =================================================
    NAVBAR DARK MODE
 ================================================= */
@@ -1487,7 +1419,6 @@ body,
   background: #1f2937;
 }
 
-
 /* =================================================
    LANGUAGE DROPDOWN DARK MODE
 ================================================= */
@@ -1505,7 +1436,6 @@ body,
 .dark .language-dropdown button:hover {
   background: #374151;
 }
-
 
 /* =================================================
    ABOUT DARK MODE
@@ -1528,7 +1458,6 @@ body,
 .dark .about-header p {
   color: #9ca3af;
 }
-
 
 /* =================================================
    ABOUT CARDS DARK MODE
@@ -1555,7 +1484,6 @@ body,
   color: #94a3b8;
 }
 
-
 /* =================================================
    ABOUT STATISTICS DARK MODE
 ================================================= */
@@ -1576,7 +1504,6 @@ body,
 .dark .about-stat-card:hover {
   background: #263244;
 }
-
 
 /* =================================================
    SERVICES DARK MODE
@@ -1600,7 +1527,6 @@ body,
   color: #9ca3af;
 }
 
-
 /* =================================================
    SERVICE CARDS DARK MODE
 ================================================= */
@@ -1622,7 +1548,6 @@ body,
   color: #9ca3af;
 }
 
-
 /* =================================================
    SERVICE ICON DARK MODE
 ================================================= */
@@ -1632,7 +1557,6 @@ body,
   color: #d1d5db;
 }
 
-
 /* =================================================
    SERVICES CTA DARK MODE
 ================================================= */
@@ -1640,7 +1564,6 @@ body,
 .dark .services-cta p {
   color: #9ca3af;
 }
-
 
 /* =================================================
    CONTACT DARK MODE
@@ -1663,7 +1586,6 @@ body,
 .dark .contact-header p {
   color: #9ca3af;
 }
-
 
 /* =================================================
    CONTACT CARDS DARK MODE
@@ -1689,7 +1611,6 @@ body,
   color: #9ca3af;
 }
 
-
 /* =================================================
    CONTACT ICON DARK MODE
 ================================================= */
@@ -1703,7 +1624,6 @@ body,
   background: #1e3a5f;
   color: #60a5fa;
 }
-
 
 /* =================================================
    CONTACT LINKS DARK MODE
@@ -1721,7 +1641,6 @@ body,
   color: #94a3b8;
 }
 
-
 /* =================================================
    CONTACT CTA DARK MODE
 ================================================= */
@@ -1729,7 +1648,6 @@ body,
 .dark .contact-cta p {
   color: #9ca3af;
 }
-
 
 /* =================================================
    CONTACT BUTTONS DARK MODE
@@ -1757,7 +1675,6 @@ body,
   border-color: #86efac;
 }
 
-
 /* =================================================
    TESTIMONIALS DARK MODE
 ================================================= */
@@ -1765,7 +1682,6 @@ body,
 .dark #testimonials {
   background: #0f172a;
 }
-
 
 /* =================================================
    TESTIMONIALS HEADER DARK MODE
@@ -1785,7 +1701,6 @@ body,
   color: #94a3b8;
 }
 
-
 /* =================================================
    TESTIMONIAL CARDS DARK MODE
 ================================================= */
@@ -1797,7 +1712,6 @@ body,
     0 8px 25px rgba(0, 0, 0, 0.25);
 }
 
-
 /* =================================================
    TESTIMONIAL TEXT DARK MODE
 ================================================= */
@@ -1805,7 +1719,6 @@ body,
 .dark .testimonial-text {
   color: #cbd5e1;
 }
-
 
 /* =================================================
    TESTIMONIAL RATING DARK MODE
@@ -1816,7 +1729,6 @@ body,
   fill: #f59e0b;
 }
 
-
 /* =================================================
    TESTIMONIAL USER DARK MODE
 ================================================= */
@@ -1824,7 +1736,6 @@ body,
 .dark .testimonial-user {
   border-top-color: #334155;
 }
-
 
 /* =================================================
    USER INFORMATION DARK MODE
@@ -1842,7 +1753,6 @@ body,
   color: #cbd5e1;
 }
 
-
 /* =================================================
    ONLINE STATUS DARK MODE
 ================================================= */
@@ -1850,7 +1760,6 @@ body,
 .dark .online-dot {
   border-color: #1e293b;
 }
-
 
 /* =================================================
    TESTIMONIAL CARD HOVER DARK MODE
@@ -1863,7 +1772,6 @@ body,
     0 15px 35px rgba(37, 99, 235, 0.20);
 }
 
-
 /* =================================================
    MESSAGE BUBBLE TAIL DARK MODE
 ================================================= */
@@ -1874,7 +1782,6 @@ body,
   border-bottom-color: #334155;
 }
 
-
 /* =================================================
    TESTIMONIAL CTA DARK MODE
 ================================================= */
@@ -1882,7 +1789,6 @@ body,
 .dark .testimonial-cta h2 {
   color: #f8fafc;
 }
-
 
 /* =================================================
    TESTIMONIAL BUTTONS DARK MODE
@@ -1900,7 +1806,6 @@ body,
   background: #267db2;
 }
 
-
 /* Talk to Our Team */
 
 .dark .testimonial-btn:last-child {
@@ -1917,7 +1822,6 @@ body,
     0 6px 15px rgba(74, 222, 128, 0.12);
 }
 
-
 /* =================================================
    SERVICE DETAILS MODAL
 ================================================= */
@@ -1926,39 +1830,28 @@ body,
   position: fixed;
   inset: 0;
   z-index: 9999;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   padding: 20px;
-
   background: rgba(15, 23, 42, 0.65);
   backdrop-filter: blur(5px);
-
   animation: serviceModalOverlay 0.25s ease;
 }
 
 .service-modal {
   position: relative;
-
   width: 100%;
   max-width: 620px;
-
   padding: 40px;
-
   background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 22px;
-
   box-shadow:
     0 25px 70px rgba(0, 0, 0, 0.25);
-
   animation: serviceModalOpen 0.3s ease;
-
   text-align: center;
 }
-
 
 /* =================================================
    MODAL CLOSE BUTTON
@@ -1968,27 +1861,19 @@ body,
   position: absolute;
   top: 15px;
   right: 18px;
-
   width: 38px;
   height: 38px;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   padding: 0;
-
   background: #f1f5f9;
   color: #475569;
-
   border: none;
   border-radius: 50%;
-
   font-size: 28px;
   line-height: 1;
-
   cursor: pointer;
-
   transition:
     background 0.25s ease,
     color 0.25s ease,
@@ -2001,7 +1886,6 @@ body,
   transform: rotate(90deg);
 }
 
-
 /* =================================================
    MODAL ICON
 ================================================= */
@@ -2009,15 +1893,11 @@ body,
 .service-modal-icon {
   width: 70px;
   height: 70px;
-
   margin: 0 auto 20px;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   border-radius: 18px;
-
   background: #e8f1f1;
   color: #2563eb;
 }
@@ -2027,25 +1907,19 @@ body,
   height: 32px;
 }
 
-
 /* =================================================
    MODAL LABEL
 ================================================= */
 
 .service-modal-label {
   display: inline-block;
-
   margin-bottom: 10px;
-
   color: #2563eb;
-
   font-size: 13px;
   font-weight: 700;
-
   letter-spacing: 0.8px;
   text-transform: uppercase;
 }
-
 
 /* =================================================
    MODAL TITLE
@@ -2053,13 +1927,10 @@ body,
 
 .service-modal h2 {
   margin: 0 0 18px;
-
   color: #1f2937;
-
   font-size: 30px;
   line-height: 1.3;
 }
-
 
 /* =================================================
    MODAL DESCRIPTION
@@ -2067,15 +1938,11 @@ body,
 
 .service-modal p {
   margin: 0 auto 28px;
-
   max-width: 520px;
-
   color: #667085;
-
   font-size: 16px;
   line-height: 1.8;
 }
-
 
 /* =================================================
    MODAL CONTACT BUTTON
@@ -2086,22 +1953,15 @@ body,
   align-items: center;
   justify-content: center;
   gap: 9px;
-
   min-height: 50px;
-
   padding: 12px 24px;
-
   background: #2563eb;
   color: #ffffff;
-
   border: none;
   border-radius: 10px;
-
   font-size: 15px;
   font-weight: 600;
-
   cursor: pointer;
-
   transition:
     background 0.3s ease,
     transform 0.3s ease,
@@ -2115,13 +1975,10 @@ body,
 
 .service-modal-contact:hover {
   background: #1d4ed8;
-
   transform: translateY(-2px);
-
   box-shadow:
     0 8px 20px rgba(37, 99, 235, 0.25);
 }
-
 
 /* =================================================
    MODAL ANIMATIONS
@@ -2149,7 +2006,6 @@ body,
   }
 }
 
-
 /* =================================================
    SERVICE MODAL DARK MODE
 ================================================= */
@@ -2161,7 +2017,6 @@ body,
 .dark .service-modal {
   background: #1e293b;
   border-color: #334155;
-
   box-shadow:
     0 25px 70px rgba(0, 0, 0, 0.45);
 }
@@ -2201,18 +2056,137 @@ body,
   background: #2563eb;
 }
 
+/* =================================================
+   LEGAL MODAL
+================================================= */
+
+.legal-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(5px);
+  animation: serviceModalOverlay 0.25s ease;
+}
+
+.legal-modal {
+  position: relative;
+  width: 100%;
+  max-width: 760px;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 40px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 22px;
+  box-shadow:
+    0 25px 70px rgba(0, 0, 0, 0.25);
+  animation: serviceModalOpen 0.3s ease;
+}
+
+.legal-modal-close {
+  position: absolute;
+  top: 15px;
+  right: 18px;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: #f1f5f9;
+  color: #475569;
+  border: none;
+  border-radius: 50%;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.legal-modal-close:hover {
+  background: #e2e8f0;
+  color: #1f2937;
+  transform: rotate(90deg);
+}
+
+.legal-modal-label {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.legal-modal h2 {
+  margin: 0 0 18px;
+  color: #1f2937;
+  font-size: 30px;
+  line-height: 1.3;
+}
+
+.legal-modal p {
+  margin: 0;
+  color: #667085;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* =================================================
+   LEGAL MODAL DARK MODE
+================================================= */
+
+.dark .legal-modal-overlay {
+  background: rgba(2, 6, 23, 0.78);
+}
+
+.dark .legal-modal {
+  background: #1e293b;
+  border-color: #334155;
+  box-shadow:
+    0 25px 70px rgba(0, 0, 0, 0.45);
+}
+
+.dark .legal-modal-close {
+  background: #334155;
+  color: #cbd5e1;
+}
+
+.dark .legal-modal-close:hover {
+  background: #475569;
+  color: #ffffff;
+}
+
+.dark .legal-modal-label {
+  color: #60a5fa;
+}
+
+.dark .legal-modal h2 {
+  color: #f8fafc;
+}
+
+.dark .legal-modal p {
+  color: #cbd5e1;
+}
 
 /* =================================================
    RESPONSIVE
 ================================================= */
-
 
 /* =================================================
    TABLET
 ================================================= */
 
 @media (max-width: 1100px) {
-
   .about-cards {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -2244,13 +2218,11 @@ body,
   }
 }
 
-
 /* =================================================
    SMALL TABLET / MOBILE
 ================================================= */
 
 @media (max-width: 700px) {
-
   /* Hero */
 
   .hero {
@@ -2278,7 +2250,6 @@ body,
     width: 110px;
   }
 
-
   /* About */
 
   #about {
@@ -2302,14 +2273,12 @@ body,
     min-height: auto;
   }
 
-
   /* About Statistics */
 
   .about-stats {
     grid-template-columns: 1fr;
     gap: 18px;
   }
-
 
   /* Services */
 
@@ -2333,7 +2302,6 @@ body,
   .service-card {
     min-height: auto;
   }
-
 
   /* Contact */
 
@@ -2378,7 +2346,6 @@ body,
     padding: 13px 20px;
     font-size: 15px;
   }
-
 
   /* Testimonials */
 
@@ -2460,7 +2427,6 @@ body,
     font-size: 15px;
   }
 
-
   /* Service Modal */
 
   .service-modal-overlay {
@@ -2493,6 +2459,31 @@ body,
     line-height: 1.75;
   }
 
+  /* Legal Modal */
+
+  .legal-modal-overlay {
+    padding: 15px;
+  }
+
+  .legal-modal {
+    max-height: 85vh;
+    padding: 35px 25px 30px;
+    border-radius: 18px;
+  }
+
+  .legal-modal h2 {
+    font-size: 26px;
+  }
+
+  .legal-modal p {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+  .legal-modal-close {
+    top: 12px;
+    right: 14px;
+  }
 
   /* Mobile Dark Mode Menu */
 
@@ -2512,13 +2503,11 @@ body,
   }
 }
 
-
 /* =================================================
    VERY SMALL MOBILE
 ================================================= */
 
 @media (max-width: 480px) {
-
   /* Hero */
 
   .hero-content h1 {
@@ -2541,7 +2530,6 @@ body,
   .stat-card span {
     font-size: 20px;
   }
-
 
   /* About */
 
@@ -2569,7 +2557,6 @@ body,
   .about-card p {
     font-size: 15px;
   }
-
 
   /* Services */
 
@@ -2601,7 +2588,6 @@ body,
   .services-cta p {
     font-size: 16px;
   }
-
 
   /* Contact */
 
@@ -2675,7 +2661,6 @@ body,
     padding: 12px 18px;
     font-size: 15px;
   }
-
 
   /* Testimonials */
 
@@ -2783,7 +2768,6 @@ body,
     font-size: 15px;
   }
 
-
   /* Service Modal */
 
   .service-modal-overlay {
@@ -2798,10 +2782,8 @@ body,
   .service-modal-close {
     top: 10px;
     right: 12px;
-
     width: 34px;
     height: 34px;
-
     font-size: 25px;
   }
 
@@ -2825,15 +2807,42 @@ body,
     width: 100%;
     padding: 12px 18px;
   }
-}
 
+  /* Legal Modal */
+
+  .legal-modal-overlay {
+    padding: 12px;
+  }
+
+  .legal-modal {
+    padding: 32px 20px 25px;
+    border-radius: 16px;
+  }
+
+  .legal-modal-close {
+    top: 10px;
+    right: 12px;
+    width: 34px;
+    height: 34px;
+    font-size: 25px;
+  }
+
+  .legal-modal h2 {
+    font-size: 23px;
+    margin-bottom: 14px;
+  }
+
+  .legal-modal p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
 
 /* =================================================
    EXTRA SMALL MOBILE
 ================================================= */
 
 @media (max-width: 360px) {
-
   #testimonials {
     padding-left: 14px;
     padding-right: 14px;

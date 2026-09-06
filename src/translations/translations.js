@@ -209,6 +209,17 @@ const translations = {
     developerName: "Lecturelia",
     developerPhone: "+880 1688-544489",
 
+
+    // Legal
+    privacyPolicyTitle: "Privacy Policy",
+    privacyPolicyText:
+      "Your privacy is important to us. We collect and use information only when it is necessary to provide our recruitment, employment, travel, and related services. We do not sell or share personal information for unrelated purposes. Any information provided to us is handled with reasonable care and used to support communication, recruitment processing, documentation, visa assistance, and other services requested by candidates. By using this website, you agree to the practices described in this Privacy Policy.",
+
+    termsOfServiceTitle: "Terms of Service",
+    termsOfServiceText:
+      "By using this website, you agree to use it for lawful and appropriate purposes. The information provided on this website is intended for general informational purposes and may change when necessary. Recruitment opportunities, employment conditions, visa requirements, travel arrangements, and related services may depend on employers, government authorities, and other third parties. We do our best to provide accurate and helpful information, but specific outcomes cannot be guaranteed. By using our services, you agree to provide accurate information and cooperate with the required recruitment and documentation procedures.",
+
+
     // Developer Page
     developerLabel: "Developer Contact",
     developerTitle: "Let's Connect With the Developer",
@@ -432,6 +443,18 @@ const translations = {
 
     developerName: "লেকচারলিয়া",
     developerPhone: "+৮৮০ ১৬৮৮-৫৪৪৪৮৯",
+
+
+    // Legal
+    privacyPolicyTitle: "গোপনীয়তা নীতি",
+    privacyPolicyText:
+      "আপনার গোপনীয়তা আমাদের কাছে গুরুত্বপূর্ণ। আমাদের নিয়োগ, কর্মসংস্থান, ভ্রমণ এবং সংশ্লিষ্ট সেবা প্রদান করার জন্য যতটুকু প্রয়োজন, আমরা ততটুকুই তথ্য সংগ্রহ ও ব্যবহার করি। অসংশ্লিষ্ট কোনো উদ্দেশ্যে আমরা ব্যক্তিগত তথ্য বিক্রি বা শেয়ার করি না। আমাদের কাছে প্রদান করা তথ্য যথাযথ যত্নের সাথে পরিচালনা করা হয় এবং যোগাযোগ, নিয়োগ প্রক্রিয়া, ডকুমেন্টেশন, ভিসা সহায়তা ও প্রার্থীদের অনুরোধ করা অন্যান্য সেবা প্রদানের কাজে ব্যবহার করা হয়। এই ওয়েবসাইট ব্যবহার করার মাধ্যমে আপনি এই গোপনীয়তা নীতিতে বর্ণিত কার্যক্রমে সম্মতি প্রদান করছেন।",
+
+    termsOfServiceTitle: "সেবার শর্তাবলী",
+    termsOfServiceText:
+      "এই ওয়েবসাইট ব্যবহার করার মাধ্যমে আপনি এটি আইনসম্মত ও উপযুক্ত কাজে ব্যবহার করতে সম্মত হচ্ছেন। এই ওয়েবসাইটে প্রদত্ত তথ্য সাধারণ তথ্যের উদ্দেশ্যে দেওয়া হয়েছে এবং প্রয়োজনে পরিবর্তিত হতে পারে। নিয়োগের সুযোগ, চাকরির শর্ত, ভিসার প্রয়োজনীয়তা, ভ্রমণ ব্যবস্থা এবং সংশ্লিষ্ট সেবাগুলো নিয়োগকর্তা, সরকারি কর্তৃপক্ষ ও অন্যান্য তৃতীয় পক্ষের ওপর নির্ভর করতে পারে। আমরা সঠিক ও সহায়ক তথ্য দেওয়ার সর্বোচ্চ চেষ্টা করি, তবে কোনো নির্দিষ্ট ফলাফল নিশ্চিত করা যায় না। আমাদের সেবা গ্রহণের মাধ্যমে আপনি সঠিক তথ্য প্রদান এবং প্রয়োজনীয় নিয়োগ ও ডকুমেন্টেশন প্রক্রিয়ায় সহযোগিতা করতে সম্মত হচ্ছেন।",
+
+
 
     // Developer Page
     developerLabel: "ডেভেলপার যোগাযোগ",
@@ -657,6 +680,16 @@ const translations = {
     developerName: "ليكتشرليا",
     developerPhone: "+٨٨٠ ١٦٨٨-٥٤٤٤٨٩",
 
+
+    // Legal
+    privacyPolicyTitle: "سياسة الخصوصية",
+    privacyPolicyText:
+      "خصوصيتكم مهمة بالنسبة لنا. نقوم بجمع واستخدام المعلومات فقط عندما تكون ضرورية لتقديم خدمات التوظيف والعمل والسفر والخدمات ذات الصلة. لا نقوم ببيع أو مشاركة المعلومات الشخصية لأغراض غير مرتبطة بالخدمات المقدمة. يتم التعامل مع المعلومات التي تقدمونها لنا بعناية معقولة واستخدامها لدعم التواصل وإجراءات التوظيف وإعداد المستندات والمساعدة في التأشيرات والخدمات الأخرى التي يطلبها المرشحون. باستخدامكم لهذا الموقع، فإنكم توافقون على الممارسات الموضحة في سياسة الخصوصية هذه.",
+
+    termsOfServiceTitle: "شروط الخدمة",
+    termsOfServiceText:
+      "باستخدام هذا الموقع، فإنكم توافقون على استخدامه لأغراض قانونية ومناسبة. المعلومات المقدمة على هذا الموقع مخصصة للأغراض العامة وقد تتغير عند الحاجة. قد تعتمد فرص التوظيف وشروط العمل ومتطلبات التأشيرة وترتيبات السفر والخدمات ذات الصلة على أصحاب العمل والجهات الحكومية والأطراف الثالثة الأخرى. نبذل قصارى جهدنا لتقديم معلومات دقيقة ومفيدة، ولكن لا يمكن ضمان نتائج محددة. باستخدام خدماتنا، فإنكم توافقون على تقديم معلومات صحيحة والتعاون في إجراءات التوظيف وإعداد المستندات المطلوبة.",
+
     // Developer Page
     developerLabel: "التواصل مع المطور",
     developerTitle: "تواصل مع المطور",
@@ -881,7 +914,18 @@ const translations = {
     developerName: "Lecturelia",
     developerPhone: "+880 1688-544489",
 
-    // Developer Page
+
+    // Legal
+    privacyPolicyTitle: "Dasar Privasi",
+    privacyPolicyText:
+      "Privasi anda penting bagi kami. Kami mengumpul dan menggunakan maklumat hanya apabila diperlukan untuk menyediakan perkhidmatan pengambilan pekerja, pekerjaan, perjalanan dan perkhidmatan berkaitan. Kami tidak menjual atau berkongsi maklumat peribadi untuk tujuan yang tidak berkaitan. Sebarang maklumat yang diberikan kepada kami dikendalikan dengan sewajarnya dan digunakan untuk menyokong komunikasi, proses pengambilan pekerja, dokumentasi, bantuan visa dan perkhidmatan lain yang diminta oleh calon. Dengan menggunakan laman web ini, anda bersetuju dengan amalan yang dinyatakan dalam Dasar Privasi ini.",
+
+    termsOfServiceTitle: "Terma Perkhidmatan",
+    termsOfServiceText:
+      "Dengan menggunakan laman web ini, anda bersetuju untuk menggunakannya bagi tujuan yang sah dan sesuai. Maklumat yang disediakan di laman web ini adalah untuk tujuan umum dan boleh berubah apabila diperlukan. Peluang pekerjaan, syarat pekerjaan, keperluan visa, urusan perjalanan dan perkhidmatan berkaitan mungkin bergantung kepada majikan, pihak berkuasa kerajaan dan pihak ketiga yang lain. Kami berusaha memberikan maklumat yang tepat dan berguna, tetapi hasil tertentu tidak dapat dijamin. Dengan menggunakan perkhidmatan kami, anda bersetuju untuk memberikan maklumat yang tepat dan bekerjasama dalam proses pengambilan pekerja serta dokumentasi yang diperlukan.",
+    
+    
+      // Developer Page
     developerLabel: "Hubungi Pembangun",
     developerTitle: "Mari Berhubung Dengan Pembangun",
     developerDescription:

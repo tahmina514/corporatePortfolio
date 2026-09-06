@@ -35,6 +35,7 @@ import {
 
 import "./App.css";
 
+
 const convertNumber = (value, language) => {
   const localeMap = {
     bn: "bn-BD",
@@ -59,6 +60,11 @@ function Home({ darkMode, setDarkMode }) {
   // Service modal state
   const [selectedService, setSelectedService] = useState(null);
   const modalRef = useRef(null);
+
+  // Legal modal state
+  const [selectedLegal, setSelectedLegal] = useState(null);
+  const legalModalRef = useRef(null);
+
 
   // Service details based on selected service
   const serviceDetails = {
@@ -89,7 +95,21 @@ function Home({ darkMode, setDarkMode }) {
     },
   };
 
-  // Close modal when clicking outside the modal content
+
+  // Legal content based on selected legal item
+  const legalContent = {
+    privacy: {
+      title: t.privacyPolicyTitle,
+      content: t.privacyPolicyText,
+    },
+    terms: {
+      title: t.termsOfServiceTitle,
+      content: t.termsOfServiceText,
+    },
+  };
+
+
+  // Close service modal when clicking outside the modal content
   useEffect(() => {
     const handleOutsideClick = (event) => {
       if (
@@ -101,20 +121,43 @@ function Home({ darkMode, setDarkMode }) {
       }
     };
 
-    document.addEventListener("mousedown", handleOutsideClick);
+    document.addEventListener("pointerdown", handleOutsideClick);
 
     return () => {
-      document.removeEventListener("mousedown", handleOutsideClick);
+      document.removeEventListener("pointerdown", handleOutsideClick);
     };
   }, [selectedService]);
+
+
+  // Close legal modal when clicking outside the modal content
+  useEffect(() => {
+    const handleLegalOutsideClick = (event) => {
+      if (
+        selectedLegal &&
+        legalModalRef.current &&
+        !legalModalRef.current.contains(event.target)
+      ) {
+        setSelectedLegal(null);
+      }
+    };
+
+    document.addEventListener("pointerdown", handleLegalOutsideClick);
+
+    return () => {
+      document.removeEventListener("pointerdown", handleLegalOutsideClick);
+    };
+  }, [selectedLegal]);
+
 
   const handleServiceClick = (service) => {
     setSelectedService(service);
   };
 
+
   const closeServiceModal = () => {
     setSelectedService(null);
   };
+
 
   const handleModalContact = () => {
     setSelectedService(null);
@@ -126,11 +169,26 @@ function Home({ darkMode, setDarkMode }) {
     }, 100);
   };
 
+
+  const handleLegalClick = (type) => {
+    setSelectedLegal(type);
+  };
+
+
+  const closeLegalModal = () => {
+    setSelectedLegal(null);
+  };
+
+
   const selectedServiceData =
     selectedService ? serviceDetails[selectedService] : null;
 
   const SelectedServiceIcon =
     selectedServiceData?.icon;
+
+
+  const selectedLegalData =
+    selectedLegal ? legalContent[selectedLegal] : null;
 
 
   return (
@@ -141,6 +199,7 @@ function Home({ darkMode, setDarkMode }) {
         darkMode={darkMode}
         setDarkMode={setDarkMode}
       />
+
 
       <main>
 
@@ -179,6 +238,7 @@ function Home({ darkMode, setDarkMode }) {
                 <span>{t.heroButton}</span>
               </button>
 
+
               <div className="hero-stats">
 
                 <div className="stat-card">
@@ -201,6 +261,7 @@ function Home({ darkMode, setDarkMode }) {
             </div>
 
           </div>
+
         </section>
 
 
@@ -487,6 +548,7 @@ function Home({ darkMode, setDarkMode }) {
                 <Star />
               </div>
 
+
               <div className="testimonial-user">
 
                 <div className="profile-wrapper">
@@ -499,6 +561,7 @@ function Home({ darkMode, setDarkMode }) {
                   <span className="online-dot"></span>
 
                 </div>
+
 
                 <div className="user-info">
 
@@ -532,6 +595,7 @@ function Home({ darkMode, setDarkMode }) {
                 <Star />
               </div>
 
+
               <div className="testimonial-user">
 
                 <div className="profile-wrapper">
@@ -544,6 +608,7 @@ function Home({ darkMode, setDarkMode }) {
                   <span className="online-dot"></span>
 
                 </div>
+
 
                 <div className="user-info">
 
@@ -577,6 +642,7 @@ function Home({ darkMode, setDarkMode }) {
                 <Star />
               </div>
 
+
               <div className="testimonial-user">
 
                 <div className="profile-wrapper">
@@ -589,6 +655,7 @@ function Home({ darkMode, setDarkMode }) {
                   <span className="online-dot"></span>
 
                 </div>
+
 
                 <div className="user-info">
 
@@ -803,6 +870,7 @@ function Home({ darkMode, setDarkMode }) {
 
       </main>
 
+
       {/* Service Details Modal */}
       {selectedServiceData && (
         <div className="service-modal-overlay">
@@ -846,8 +914,43 @@ function Home({ darkMode, setDarkMode }) {
         </div>
       )}
 
+
+      {/* Legal Details Modal */}
+      {selectedLegalData && (
+        <div className="legal-modal-overlay">
+
+          <div
+            className="legal-modal"
+            ref={legalModalRef}
+            dir={language === "ar" ? "rtl" : "ltr"}
+          >
+
+            <button
+              className="legal-modal-close"
+              onClick={closeLegalModal}
+              aria-label={t.serviceModalClose}
+            >
+              ×
+            </button>
+
+            <span className="legal-modal-label">
+              {selectedLegal === "privacy"
+                ? t.footerPrivacy
+                : t.footerTerms}
+            </span>
+
+            <h2>{selectedLegalData.title}</h2>
+
+            <p>{selectedLegalData.content}</p>
+
+          </div>
+
+        </div>
+      )}
+
+
       {/* Footer */}
-      <Footer />
+      <Footer onLegalClick={handleLegalClick} />
 
     </div>
   );
@@ -863,9 +966,11 @@ function App() {
     return localStorage.getItem("theme") === "dark";
   });
 
+
   useEffect(() => {
     localStorage.setItem("theme", darkMode ? "dark" : "light");
   }, [darkMode]);
+
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -892,5 +997,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

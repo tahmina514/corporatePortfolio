@@ -32,7 +32,7 @@
   border-radius: 20px;
 
   background: #e8f1f1;
-  color: #167a72;
+  color: #92a2a1;
 }
 
 .developer-label {
@@ -106,7 +106,7 @@
   overflow: hidden;
 
   background: #ffffff;
-  border: 3px solid #167a72;
+  border: 1px solid #000000;
 
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
@@ -251,8 +251,9 @@
 /* Developer logo */
 .dark .developer-avatar {
   background: #ffffff;
-  border-color: #63c5bd;
+  border-color: #000000;
 }
+
 
 /* Contact buttons */
 .dark .developer-contact-btn {
