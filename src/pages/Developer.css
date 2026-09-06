@@ -1,0 +1,326 @@
+/* =========================
+   DEVELOPER PAGE
+========================= */
+
+.developer-page {
+  min-height: 100vh;
+  padding: 120px 20px 80px;
+  background: #f5f8f8;
+  color: #1f2937;
+}
+
+
+/* =========================
+   DEVELOPER HEADER
+========================= */
+
+.developer-header {
+  max-width: 800px;
+  margin: 0 auto 45px;
+  text-align: center;
+}
+
+.developer-icon {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 20px;
+
+  background: #e8f1f1;
+  color: #167a72;
+}
+
+.developer-label {
+  display: inline-block;
+  margin-bottom: 12px;
+
+  font-size: 14px;
+  font-weight: 600;
+  color: #167a72;
+  letter-spacing: 0.5px;
+}
+
+.developer-header h1 {
+  margin: 0 0 15px;
+
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.developer-header p {
+  max-width: 650px;
+  margin: 0 auto;
+
+  font-size: 16px;
+  line-height: 1.7;
+  color: #667085;
+}
+
+
+/* =========================
+   DEVELOPER CARD
+========================= */
+
+.developer-card {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 45px;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 24px;
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================
+   PROFILE
+========================= */
+
+.developer-profile {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  margin-bottom: 35px;
+}
+
+.developer-avatar {
+  width: 90px;
+  height: 90px;
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  overflow: hidden;
+
+  background: #ffffff;
+  border: 3px solid #167a72;
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.developer-avatar img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  display: block;
+}
+
+.developer-role {
+  display: block;
+  margin-bottom: 5px;
+
+  font-size: 13px;
+  font-weight: 600;
+  color: #167a72;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.developer-info h2 {
+  margin: 0 0 8px;
+
+  font-size: 30px;
+}
+
+.developer-info p {
+  margin: 0;
+
+  color: #667085;
+  line-height: 1.6;
+}
+
+
+/* =========================
+   CONTACT BUTTONS
+========================= */
+
+.developer-contact-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+
+  margin-bottom: 40px;
+}
+
+.developer-contact-btn {
+  min-height: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 14px 20px;
+
+  border-radius: 12px;
+
+  background: #167a72;
+  color: #ffffff;
+
+  text-decoration: none;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.developer-contact-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================
+   BACK BUTTON
+========================= */
+
+.developer-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-top: 5px;
+
+  color: #667085;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: color 0.25s ease;
+}
+
+.developer-back-btn:hover {
+  color: #167a72;
+}
+
+
+/* =========================
+   DARK MODE
+========================= */
+
+.dark .developer-page {
+  background: #101818;
+  color: #f2f4f7;
+}
+
+.dark .developer-icon {
+  background: #183c3a;
+  color: #63c5bd;
+}
+
+.dark .developer-label,
+.dark .developer-role {
+  color: #63c5bd;
+}
+
+/* Developer heading and main text */
+.dark .developer-header h1,
+.dark .developer-info h2 {
+  color: #f2f4f7;
+}
+
+/* Developer description */
+.dark .developer-header p,
+.dark .developer-info p {
+  color: #c4cdd5;
+}
+
+/* Developer card */
+.dark .developer-card {
+  background: #172121;
+  border-color: #263636;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Developer logo */
+.dark .developer-avatar {
+  background: #ffffff;
+  border-color: #63c5bd;
+}
+
+/* Contact buttons */
+.dark .developer-contact-btn {
+  background: #1b8a80;
+  color: #ffffff;
+}
+
+/* Back to Home */
+.dark .developer-back-btn {
+  color: #c4cdd5;
+}
+
+.dark .developer-back-btn:hover {
+  color: #63c5bd;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 768px) {
+  .developer-page {
+    padding: 100px 18px 60px;
+  }
+
+  .developer-header h1 {
+    font-size: 34px;
+  }
+
+  .developer-card {
+    padding: 30px;
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+  .developer-page {
+    padding: 90px 15px 50px;
+  }
+
+  .developer-header h1 {
+    font-size: 30px;
+  }
+
+  .developer-header p {
+    font-size: 15px;
+  }
+
+  .developer-card {
+    padding: 25px 20px;
+    border-radius: 18px;
+  }
+
+  .developer-profile {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .developer-avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .developer-contact-buttons {
+    grid-template-columns: 1fr;
+  }
+}

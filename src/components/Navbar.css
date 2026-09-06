@@ -1,0 +1,656 @@
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+
+  background-color: white;
+  border-bottom: 1px solid #eee;
+
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+
+  padding: 18px 24px;
+  gap: 20px;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  flex-shrink: 0;
+}
+
+.logo img {
+  width: 60px;
+  height: 45px;
+
+  object-fit: contain;
+}
+
+.logo span {
+  font-size: 22px;
+  font-weight: 700;
+
+  color: #114082;
+
+  white-space: nowrap;
+
+  transition: color 0.3s ease;
+}
+
+
+/* =========================
+   DESKTOP MENU
+========================= */
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+
+  gap: 30px;
+
+  margin-left: auto;
+}
+
+.nav-menu a {
+  text-decoration: none;
+
+  color: #333;
+
+  font-size: 16px;
+
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #007bff;
+}
+
+
+/* =========================
+   OPTIONS
+========================= */
+
+.nav-options {
+  display: flex;
+  align-items: center;
+
+  gap: 18px;
+
+  margin-left: 10px;
+}
+
+.nav-options button {
+  border: none;
+
+  background: transparent;
+
+  cursor: pointer;
+}
+
+
+/* =========================
+   LANGUAGE
+========================= */
+
+.language-wrapper {
+  position: relative;
+}
+
+.language-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 36px;
+  height: 36px;
+
+  padding: 5px;
+
+  color: #1f2937;
+
+  border-radius: 8px;
+
+  transition:
+    color 0.3s ease,
+    background 0.3s ease;
+}
+
+.language-btn:hover {
+  color: #2563eb;
+
+  background: #f1f5f9;
+}
+
+.language-btn span {
+  display: none;
+}
+
+
+/* =========================
+   LANGUAGE DROPDOWN
+========================= */
+
+.language-dropdown {
+  position: absolute;
+
+  top: 42px;
+  right: 0;
+
+  width: 170px;
+
+  background: white;
+
+  border: 1px solid #ddd;
+
+  border-radius: 8px;
+
+  padding: 6px;
+
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.15);
+
+  z-index: 1000;
+}
+
+.language-dropdown button {
+  display: block;
+
+  width: 100%;
+
+  padding: 10px;
+
+  border: none;
+
+  background: white;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+
+  font-size: 14px;
+
+  color: #333;
+
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
+}
+
+.language-dropdown button:hover {
+  background: #f2f2f2;
+}
+
+
+/* =========================
+   THEME / CUSTOMIZE
+========================= */
+
+.theme-btn {
+  width: 36px;
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 5px;
+
+  border-radius: 8px;
+
+  color: #1f2937;
+
+  transition:
+    background 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.theme-btn:hover {
+  background: #f1f5f9;
+
+  transform: rotate(15deg);
+}
+
+
+/* =========================
+   MOBILE MENU BUTTON
+========================= */
+
+.mobile-menu-btn {
+  display: none;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+
+  background: transparent;
+
+  border: none;
+
+  cursor: pointer;
+
+  color: #1f2937;
+
+  padding: 5px;
+
+  border-radius: 8px;
+
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
+}
+
+.mobile-menu-btn:hover {
+  background: #f1f5f9;
+}
+
+
+/* =================================================
+   DARK MODE - NAVBAR
+================================================= */
+
+.dark .navbar {
+  background-color: #111827;
+
+  border-bottom-color: #374151;
+}
+
+
+/* =========================
+   DARK MODE - LOGO
+========================= */
+
+.dark .logo span {
+  color: #ffffff;
+}
+
+
+/* =========================
+   DARK MODE - MENU
+========================= */
+
+.dark .nav-menu a {
+  color: #e5e7eb;
+}
+
+.dark .nav-menu a:hover {
+  color: #60a5fa;
+}
+
+
+/* =========================
+   DARK MODE - LANGUAGE
+========================= */
+
+.dark .language-btn {
+  color: #e5e7eb;
+}
+
+.dark .language-btn:hover {
+  color: #60a5fa;
+
+  background: #1f2937;
+}
+
+
+/* =========================
+   DARK MODE - LANGUAGE DROPDOWN
+========================= */
+
+.dark .language-dropdown {
+  background: #1f2937;
+
+  border-color: #374151;
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.dark .language-dropdown button {
+  background: #1f2937;
+
+  color: #e5e7eb;
+}
+
+.dark .language-dropdown button:hover {
+  background: #374151;
+
+  color: #ffffff;
+}
+
+
+/* =========================
+   DARK MODE - THEME BUTTON
+========================= */
+
+.dark .theme-btn {
+  color: #facc15;
+}
+
+.dark .theme-btn:hover {
+  background: #1f2937;
+}
+
+
+/* =========================
+   DARK MODE - MOBILE BUTTON
+========================= */
+
+.dark .mobile-menu-btn {
+  color: #e5e7eb;
+}
+
+.dark .mobile-menu-btn:hover {
+  background: #1f2937;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .navbar-container {
+    position: relative;
+
+    padding: 14px 18px;
+
+    gap: 10px;
+
+    justify-content: flex-start;
+  }
+
+
+  /* =========================
+     HAMBURGER - LEFT
+  ========================= */
+
+  .mobile-menu-btn {
+    display: flex;
+
+    order: 1;
+
+    flex-shrink: 0;
+
+    margin-right: 4px;
+  }
+
+
+  /* =========================
+     LOGO
+  ========================= */
+
+  .logo {
+    order: 2;
+
+    gap: 8px;
+
+    margin-right: auto;
+  }
+
+  .logo img {
+    width: 50px;
+    height: 40px;
+  }
+
+  .logo span {
+    font-size: 19px;
+  }
+
+
+  /* =========================
+     OPTIONS - RIGHT
+  ========================= */
+
+  .nav-options {
+    order: 3;
+
+    margin-left: auto;
+
+    gap: 16px;
+  }
+
+
+  /* =========================
+     HIDE DESKTOP MENU
+  ========================= */
+
+  .nav-menu {
+    display: none;
+  }
+
+
+  /* =========================
+     MOBILE MENU OPEN
+  ========================= */
+
+  .nav-menu.active {
+    display: flex;
+
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    width: 230px;
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+    gap: 0;
+
+    margin: 0;
+
+    padding: 8px 0;
+
+    background: white;
+
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+
+    border-radius: 0 0 10px 0;
+
+    box-shadow:
+      4px 8px 20px rgba(0, 0, 0, 0.12);
+
+    z-index: 999;
+  }
+
+
+  /* =========================
+     MOBILE MENU DARK
+  ========================= */
+
+  .dark .nav-menu.active {
+    background: #1f2937;
+
+    border-right-color: #374151;
+    border-bottom-color: #374151;
+
+    box-shadow:
+      4px 8px 20px rgba(0, 0, 0, 0.35);
+  }
+
+
+  /* =========================
+     MOBILE MENU LINKS
+  ========================= */
+
+  .nav-menu.active a {
+    width: 100%;
+
+    padding: 14px 22px;
+
+    font-size: 16px;
+
+    color: #333;
+
+    border-bottom: 1px solid #f0f0f0;
+
+    transition:
+      background 0.3s ease,
+      color 0.3s ease;
+  }
+
+  .nav-menu.active a:last-child {
+    border-bottom: none;
+  }
+
+  .nav-menu.active a:hover {
+    background: #f5f8ff;
+
+    color: #2563eb;
+  }
+
+
+  /* =========================
+     MOBILE MENU DARK LINKS
+  ========================= */
+
+  .dark .nav-menu.active a {
+    color: #e5e7eb;
+
+    border-bottom-color: #374151;
+  }
+
+  .dark .nav-menu.active a:hover {
+    background: #374151;
+
+    color: #60a5fa;
+  }
+
+
+  /* =========================
+     LANGUAGE ONLY ICON
+  ========================= */
+
+  .language-btn {
+    padding: 4px;
+  }
+
+  .language-btn span {
+    display: none;
+  }
+
+
+  /* =========================
+     THEME
+  ========================= */
+
+  .theme-btn {
+    padding: 4px;
+  }
+}
+
+
+/* =========================
+   VERY SMALL MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+  .navbar-container {
+    padding: 12px 14px;
+
+    gap: 6px;
+  }
+
+
+  /* Hamburger */
+
+  .mobile-menu-btn {
+    width: 36px;
+    height: 36px;
+
+    margin-right: 2px;
+  }
+
+
+  /* Logo */
+
+  .logo {
+    gap: 6px;
+  }
+
+  .logo img {
+    width: 45px;
+    height: 36px;
+  }
+
+  .logo span {
+    font-size: 17px;
+  }
+
+
+  /* Right side */
+
+  .nav-options {
+    gap: 10px;
+  }
+
+  .language-btn,
+  .theme-btn {
+    width: 34px;
+    height: 34px;
+  }
+
+
+  /* Mobile dropdown */
+
+  .nav-menu.active {
+    width: 210px;
+  }
+}
+
+
+/* =================================================
+   MOBILE MENU OUTSIDE CLICK SUPPORT
+================================================= */
+
+@media (max-width: 768px) {
+
+  .nav-menu.active {
+    animation: mobileMenuOpen 0.2s ease;
+  }
+
+}
+
+@keyframes mobileMenuOpen {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
