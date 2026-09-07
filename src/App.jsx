@@ -37,18 +37,19 @@ import "./App.css";
 
 
 const convertNumber = (value, language) => {
-  const localeMap = {
-    bn: "bn-BD",
-    en: "en-US",
-    ar: "ar-SA",
-    ms: "ms-MY",
-  };
+  if (language === "bn") {
+    return value.replace(/\d+/g, (number) => {
+      return new Intl.NumberFormat("bn-BD").format(Number(number));
+    });
+  }
 
-  const locale = localeMap[language];
+  if (language === "ar") {
+    return value.replace(/\d+/g, (number) => {
+      return new Intl.NumberFormat("ar-SA").format(Number(number));
+    });
+  }
 
-  return value.replace(/\d+/g, (number) => {
-    return new Intl.NumberFormat(locale).format(Number(number));
-  });
+  return value;
 };
 
 
