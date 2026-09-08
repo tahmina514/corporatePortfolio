@@ -8,7 +8,7 @@ import {
 import { useLanguage } from "../context/LanguageContext";
 import translations from "../translations/translations";
 
-import lectureliaLogo from "../assets/lecturelia-logo.png";
+import lectureliaLogo from "../assets/lecturelia-logo.jpeg";
 
 import "./Developer.css";
 
